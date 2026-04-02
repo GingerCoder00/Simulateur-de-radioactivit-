@@ -1,4 +1,4 @@
-# ☢️ Désintégration — Simulateur de radioactivité
+# Désintégration — Simulateur de radioactivité
 
 Une simulation Python de la **décroissance radioactive**, modélisée par un jeu de dés.  
 Chaque atome instable a une probabilité fixe de **se désintégrer à chaque instant** —  
@@ -6,7 +6,7 @@ exactement comme en physique nucléaire.
 
 ---
 
-## 🔬 Principe scientifique
+## Principe scientifique
 
 En radioactivité, chaque noyau instable a une **probabilité constante de se désintégrer**  
 par unité de temps, indépendamment de son âge. C'est ce qu'on appelle la **loi de  
@@ -23,7 +23,7 @@ La simulation s'arrête quand **tous les atomes se sont désintégrés**.
 
 ---
 
-## 📉 Loi de décroissance
+## Loi de décroissance
 
 Le nombre d'atomes restants suit une **décroissance exponentielle** :
 ```
@@ -40,7 +40,7 @@ où `λ` est la **constante radioactive** (ici λ = ln(6/5) ≈ 0,182).
 
 ---
 
-## 🚀 Lancer la simulation
+## Lancer la simulation
 
 **Prérequis :** Python 3.x — aucune dépendance externe
 ```bash
@@ -51,7 +51,7 @@ python desintegration.py
 
 ---
 
-## 📊 Exemple de sortie
+## Exemple de sortie
 ```
 Le nombre de 6 est de : 168
 Il reste 832 dé(s)
@@ -65,7 +65,7 @@ Les 1000 dés ont été détruit en 24 lancé
 
 ---
 
-## ⚙️ Paramètres modifiables
+## Paramètres modifiables
 
 | Variable | Valeur par défaut | Signification physique |
 |---|---|---|
@@ -85,6 +85,6 @@ desintegration/
 
 ---
 
-## 📜 Licence
+## Licence
 
 MIT — libre d'utilisation, de modification et de partage.
